@@ -1,4 +1,5 @@
 import React from "react";
+import GameCard from "./GameCard";
 
 function generateTodaysGames() {
   fetch(
@@ -15,6 +16,7 @@ export default function NBAToday() {
     <div className="today-body-div">
       <div className="today-main-div">
         <h1 className="today-h1">Today's Games</h1>
+        <GameCard></GameCard>
       </div>
     </div>
   );

@@ -51,6 +51,80 @@ body {
   margin: auto;
   text-align: left;
 }
+.gamecard-main-div{
+  width: 85%;
+  height: auto;
+  border-radius: 25px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  outline:auto;
+  outline-width: 30px;
+  outline-color: #e5e5e5;
+  font-size: 2.5em;
+}
+.logo-div{
+  width:200px;
+  display:flexbox;
+  flex-direction: column;
+}
+.info-div{
+  display: flexbox;
+  flex-direction: column;
+}
+.name-div{
+  display: flexbox;
+  flex-direction: column;
+}
+.home-name-div{
+  display: none;
+}
+.home-div{
+  width: 150px;
+  height: 125px;
+  border-radius:25px;
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  margin-bottom: 15px;
+}
+.home-score-div{
+  width: 150px;
+  height: 125px;
+  line-height: 125px;
+  border-radius:25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+}
+.away-name-div{
+  display: none;
+}
+.away-score-div{
+  width: 150px;
+  height: 125px;
+  line-height: 125px;
+  border-radius:25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+
+}
+.away-div{
+  width: 150px;
+  height: 125px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+.team-logo{
+  width: 100px;
+  object-fit: contain;
+  margin: auto;
+}
 
 @media screen and (max-width: 374px) {
   .title-h1{
@@ -79,5 +153,26 @@ body {
   .subtitle-h3{
     font-size: 2em;
     text-align: right
+  }
+}
+
+@media screen and (min-width: 560px){
+  .home-name-div{
+    width: 150px;
+    height: 125px;
+    line-height: 125px;
+    border-radius:25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .away-name-div{
+    width: 150px;
+    height: 125px;
+    line-height: 125px;
+    border-radius:25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
   }
 }
